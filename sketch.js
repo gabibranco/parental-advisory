@@ -37,7 +37,7 @@ function draw() {
   y = y - 1;
 
   // Reset to the bottom
-  if (y < -140) {
+  if (y < -350) {
     y = height;
   }
 }
