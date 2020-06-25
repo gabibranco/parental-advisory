@@ -32,28 +32,12 @@ function draw() {
   text('by the time you go to bed,', x, y + 280);
   fill(255);
   text('62 will have died today.', x, y + 350);
-  
+
+  createA(href, html, [target])
   y = y - 1;
-  
+
   // Reset to the bottom
   if (y < -140) {
     y = height;
   }
-}
-
-function drawWords(x) {
-  // The text() function needs three parameters:
-  // the text to draw, the horizontal position,
-  // and the vertical position
-  fill(40);
-  text('ichi', x, 80);
-
-  fill(65);
-  text('ni', x, 150);
-
-  fill(190);
-  text('san', x, 220);
-
-  fill(255);
-  text('shi', x, 290);
 }
