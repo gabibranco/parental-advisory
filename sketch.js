@@ -33,7 +33,6 @@ function draw() {
   fill(255);
   text('62 will have died today.', x, y + 350);
 
-  createA(href, html, [target])
   y = y - 1;
 
   // Reset to the bottom
